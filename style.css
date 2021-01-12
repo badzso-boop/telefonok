@@ -1,0 +1,130 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1
+{
+    text-align: center;
+    margin: 15px;
+    font-size: 48px;
+}
+
+.input
+{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 25px;
+    width: 15%;
+    text-align: center;
+}
+
+.input h4
+{
+    margin: 15px;
+    font-size: 28px;
+}
+
+#bemenet
+{
+    width: 75px;
+    height: 50px;
+    font-size: 28px;
+    border: none;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+#nulla
+{
+    display: inline-block;
+    font-size: 28px;
+}
+
+#gomb
+{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: lightgreen;
+    transition: 1s ease-in-out;
+}
+
+#gomb:hover
+{
+    background-color: green;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body
+{
+    background-color: #008B8B;
+}
+
+.nev
+{
+    width: 60%;
+    border: 2px solid;
+    margin: 15px 10px 15px 10px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.ar
+{
+    width: 15%;
+    border: 2px solid;
+    margin: 15px 10px 15px 10px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.kep
+{
+    width: 50px;
+    display: inline-block;
+    border: 2px solid;
+    margin: 45px 10px 15px 10px;
+}
+
+.span
+{
+    width: 250px;
+}
+
+.show
+{
+    display: inline-block;
+}
+
+.hide
+{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{font-size: 68px;}
+    .input h4{font-size: 52px;}
+    .input{width: 600px; margin: 0%; border-radius: 0px;}
+    #bemenet{width: 150px;height: 75px; font-size: 46px;}
+    #nulla{font-size: 46px;}
+    #gomb {width: 35%; height: 150px; font-size: 38px;}
+    .nev{width: 45%;}
+    .ar{width: 15%;}
+    .span{width: 0px;}
+  }
